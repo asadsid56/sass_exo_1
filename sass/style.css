@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../img/Protruding-Squares.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header div {
+  padding: 3%;
+}
+
+header h1 {
+  color: white;
+  font-size: 50px;
+}
+
+header nav {
+  padding: 2%;
+  background-color: red;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+}
+
+#about {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/Liquid-Cheese.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about .content-about {
+  padding: 5%;
+  width: 80%;
+}
+
+#about h2 {
+  font-size: 40px;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+#about img {
+  height: 400px;
+}
+
+#gallery {
+  padding: 5%;
+}
+
+#gallery h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+#gallery .container-gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+}
+
+#gallery img {
+  height: 250px;
+}
+
+footer {
+  padding: 5%;
+  text-align: center;
+  background-image: url("../img/Liquid-Cheese.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
